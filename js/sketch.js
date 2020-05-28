@@ -22,7 +22,7 @@ function setup() {
 
     // initialize the webcam at the window size
     cam = createCapture(VIDEO);
-    cam.size(640, 480);
+    cam.size(640, window.height * 0.6);
 
     hRatio = (windowWidth / cam.width) * cam.height;
 
